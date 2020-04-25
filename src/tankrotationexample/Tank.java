@@ -129,7 +129,7 @@ public class Tank extends Moveable{
     public void collideCheck(Object obj)
     {
         if(health.getVisible()) {
-            if (obj instanceof ArrayList<?> && ((ArrayList<?>) obj).get(1) instanceof Wall) {
+            if (obj instanceof ArrayList<?> && (!((ArrayList<?>) obj).isEmpty()) && ((ArrayList<?>) obj).get(0) instanceof Wall) {
                 for(Object wall : (ArrayList<?>)obj) {
                     if (((Wall)wall).getVisible() && ((Wall) wall).getHitBox().intersects(hitBox)) {
                         setX(getX() - (isUpPressed() ? 1 : 0) * getVx() + (isDownPressed() ? 1 : 0) * getVx());
@@ -143,7 +143,7 @@ public class Tank extends Moveable{
                     health.decHealth();
                 }
             }
-            else if (obj instanceof ArrayList<?> && ((ArrayList<?>) obj).get(1) instanceof PowerUp) {
+            else if (obj instanceof ArrayList<?> && (!((ArrayList<?>) obj).isEmpty()) && ((ArrayList<?>) obj).get(0) instanceof PowerUp) {
                 //System.out.println("PING");
                 for (Object powerup : (ArrayList<?>) obj) {
                     if (((PowerUp)powerup).getVisible() && ((PowerUp) powerup).getHitBox().intersects(hitBox)) {
@@ -253,7 +253,7 @@ public class Tank extends Moveable{
         if(health.getVisible()) {
             g2d.drawImage(this.tankImage, rotation, null);
             g2d.setColor(Color.CYAN);
-            g2d.drawRect(x,y,this.tankImage.getWidth(),this.tankImage.getHeight());
+            //g2d.drawRect(x,y,this.tankImage.getWidth(),this.tankImage.getHeight());
             this.health.drawImage(g2d);
 
         }

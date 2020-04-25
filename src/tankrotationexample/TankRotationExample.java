@@ -171,7 +171,7 @@ public class TankRotationExample extends JPanel  {
             System.out.println(ex.getMessage());
         }
         tankOne = new Tank(100, 200, true, tank1Image,5,5,0, projectileImage, heartImage, healthBarImage);
-        tankTwo = new Tank(600, 600, true,tank2Image,5,5, 180, projectileImage, heartImage, healthBarImage);
+        tankTwo = new Tank(WORLD_WIDTH-100, WORLD_HEIGHT-200, true,tank2Image,5,5, 180, projectileImage, heartImage, healthBarImage);
         bg = new Background(backgroundImage);
         TankControl tankOneControl = new TankControl(tankOne, KeyEvent.VK_UP,
                 KeyEvent.VK_DOWN,

@@ -92,7 +92,7 @@ public class Projectile extends Moveable {
         if(vis) {
             g2d.drawImage(this.projectileImage, rotation, null);
             g2d.setColor(Color.CYAN);
-            g2d.drawRect((int) hitBox.getX(), (int) hitBox.getY(), (int) this.hitBox.getWidth(), (int) this.hitBox.getHeight());
+            //g2d.drawRect((int) hitBox.getX(), (int) hitBox.getY(), (int) this.hitBox.getWidth(), (int) this.hitBox.getHeight());
         }
     }
 }

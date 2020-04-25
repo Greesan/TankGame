@@ -26,7 +26,7 @@ public abstract class Wall extends Stationary{
         if(visible) {
             g2d.drawImage(image, null, this.x, this.y);
             g2d.setColor(Color.CYAN);
-            g2d.drawRect(x,y,this.image.getWidth(),this.image.getHeight());
+            //g2d.drawRect(x,y,this.image.getWidth(),this.image.getHeight());
         }
     }
 }
