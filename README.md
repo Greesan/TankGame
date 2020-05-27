@@ -1,4 +1,4 @@
-# csc413-tankgame
+# TankWars Game
 
 ## Student Name  : Greesan Gurumurthy
 ## Student ID    : 918737305
