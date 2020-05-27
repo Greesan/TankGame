@@ -4,7 +4,7 @@
 ## Student ID    : 918737305
 
 ## Project was made in IntelliJ IDEA 2019.3.2, Java Version "11.0.5" used to compile.
-## Working directory:
+
 ## Controls:
 ## Up arrow: Move tank1 forward
 ## Down arrow: Move tank1 backward
