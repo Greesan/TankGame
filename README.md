@@ -18,8 +18,8 @@
 ## D key: Rotate tank2 left
 ## Space key: Shoot bullet from tank2
 
-## src folder is used for source code only.
+## source code is in source code folder.
 
-## resources folder is used to store the resources for your project only. This includes images, sounds, map text files, etc.
+## resources found in the resources folder. This includes images, sounds, map text files, etc.
 
-## jar folder is used to store the built jar
+## jar executable found in jar folder.
