@@ -12,14 +12,14 @@
 ## Right arrow: Rotate tank1 left
 ## Enter key: Shoot bullet from tank1
 
-## W key: Move tank1 forward
-## S key: Move tank1 backward
-## A key: Rotate tank1 left
-## D key: Rotate tank1 left
-## Space key: Shoot bullet from tank1
+## W key: Move tank2 forward
+## S key: Move tank2 backward
+## A key: Rotate tank2 left
+## D key: Rotate tank2 left
+## Space key: Shoot bullet from tank2
 
-## src folder is to be used for source code only.
+## src folder is used for source code only.
 
-## resources folder is to be used to store the resources for your project only. This includes images, sounds, map text files, etc.
+## resources folder is used to store the resources for your project only. This includes images, sounds, map text files, etc.
 
-## jar folder is used to store the built jar of your term-project. NO SOURCE CODE SHOULD BE IN THIS FOLDER. DOING SO WILL CAUSE POINTS TO BE DEDUCTED
+## jar folder is used to store the built jar
